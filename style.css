@@ -1,0 +1,25 @@
+body {
+	font-family: 'Nerko One', cursive;
+    font-size: 1rem;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+	background: linear-gradient(to right, #f43b47 , #453a94); /* Standard syntax */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.box{
+    padding: 1.4rem;
+    border: 7px solid white;
+    border-radius: 14px;
+}
+h2{
+    font-family: courier new;
+    text-transform: lowercase;
+    letter-spacing: 0;
+}
